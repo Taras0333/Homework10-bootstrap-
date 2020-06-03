@@ -1,0 +1,12 @@
+.bg-light {
+	background-color: #FFFF !important;
+}
+
+@media (min-width: 576px){
+.form-inline .form-control {
+   width: 216px;
+}
+}
+.container{
+	justify-content: center !important;
+}
