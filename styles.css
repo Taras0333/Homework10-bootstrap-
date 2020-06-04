@@ -89,6 +89,75 @@
 	font-size: 17px;
 	line-height: 21px;
 }
+.header-secondary-name-wrapper{
+	margin-top: 21px;
+}
+.header-secondary-name{
+	font-family: 'HelveticaNeueCyr';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+
+}
+.header-text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 25px;
+	margin-bottom: 0px;
+}
+.link{
+	color: #133768;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 21px;
+}
+.stories-icon{
+	width: 79px;
+	height: 79px;
+}
+.stories-wrapper{
+	width: 87px;
+	height: 87px;
+	border-radius: 50%;
+	border: 1px solid #DBDBDB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.stories-wrapper:first-child{
+	margin-left: auto;
+}
+.stories-wrapper:nth-child(1n+1){
+	margin-right: 39px;
+}
+.stories-wrapper:last-child{
+	margin-right: 0px;
+}
+.stories-section-user-name{
+	justify-content: flex-end;
+	padding-right: 0px;
+}
+.user-name{
+	font-family: 'HelveticaNeueCyr';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #262626;
+}
+.user-name:nth-child(1n+1){
+	margin-right: 45px;
+}
+.user-name:last-child{
+	margin-right: 0px;
+}
+.user-name:first-child{
+	margin-right: 60px;
+}
 .right-container{
 	height: 30px;
 	width: 100%;
