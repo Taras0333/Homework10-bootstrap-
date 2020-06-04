@@ -12,7 +12,11 @@
 }
 .nav-icons{
 	width: 7%;
+	cursor: pointer;
 }
+}
+.nav-icons{
+	cursor: pointer;
 }
 .top-bar{
 	height: 50px;
@@ -38,6 +42,34 @@
 	font-size: 14px;
 	line-height: 17px;
 }
+.arrow-icon-wrapper{
+	width: 30px;
+	height: 33px;
+	margin-right: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/insta-arrow.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.number-massages{
+	width: 15px;
+	height: 15px;
+	border: 1px solid #DC565B;;
+	border-radius: 50%;
+	background-color: #DC565B;;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	margin-left: auto;
+	margin-bottom: auto;
+	z-index: 1;
+
+}
 .header{
 	height: 320px;
 	display: flex;
@@ -56,6 +88,9 @@
 }
 .header-right-col-wrapper{
 	height: 100%;
+}
+.header-followers{
+	cursor: pointer;
 }
 .insta-name{
 	font-family: 'HelveticaNeueCyr'; 
@@ -79,6 +114,9 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+.dots{
+	cursor: pointer;
 }
 .header-followers-wrapper{
 	margin-top: 24px;
@@ -126,6 +164,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 }
 .stories-wrapper:first-child{
 	margin-left: auto;
@@ -157,6 +196,66 @@
 }
 .user-name:first-child{
 	margin-right: 60px;
+}
+.mid-menu-section{
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	margin-top: 55px;
+}
+.mid-menu-wrapper{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+.mid-menu-left, .mid-menu-right{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.menu-icons{
+	margin-right: 5px;
+}
+.tagged{
+	font-family: 'HelveticaNeueCyr';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.09em;
+	color: #8F8F8F;
+}
+.posts{
+	font-family: 'HelveticaNeueCyr';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.09em;
+	color: #262626;
+	margin-right: 10px;
+}
+.pictures-list{
+	width: 297px;
+	height: 297px;
+	cursor: pointer;
+}
+.pictures-list:nth-child(1n+1){
+	margin-bottom: 61px;
+}
+.pictures-list-row{
+	justify-content: center;
+}
+.pictures-list-wrapper{
+	justify-content: center;
+	padding: 0px 0px;
+	flex-wrap: wrap;
 }
 .right-container{
 	height: 30px;
