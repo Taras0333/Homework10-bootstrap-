@@ -10,26 +10,52 @@
 	<link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 <body>
-	<nav class="navbar navbar-light bg-light border-bottom">
-		<div class=" container nav-left">
-  			<img class="insta-icon" src="./images/insta-icon.svg" alt="instagram icon" />
-  			<form class="form-inline">
-   				<input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search" />
-   		
-    		
-  			</form>
-  		</div>
-  		<div class=" container nav-right">
-  			<div class="container right-container">
-  				<img class="nav-icons" src="./images/home-icon.svg" alt="home icon" />
+	
+	<div class="container-fluid border-bottom top-bar">
+		<div class="row top-bar-content-wrapper">
+    		<div class="col-sm columns-top">
+	      		<img class="insta-icon" src="./images/insta-icon.svg" alt="instagram icon" />
+	    	</div>
+	    	<div class="col-sm columns-top">
+	     		<input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search" />
+	    	</div>
+	    	<div class="col-sm columns-top">
+	      		<img class="nav-icons" src="./images/home-icon.svg" alt="home icon" />
   				<img class="nav-icons" src="./images/insta-arrow.svg" alt="arrow icon" />
   				<img class="nav-icons" src="./images/compass.svg" alt="compass icon" />
   				<img class="nav-icons" src="./images/heart.svg" alt="heart icon" />
   				<img  src="https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Los Angeles picture" class="rounded-circle nav-user-picture nav-icons" />
-
-  			</div>
+	    	</div>
   		</div>
-	</nav>
+	</div>
+	<div class="container-fluid header">
+		<div class="col-4 header-left-col">
+			<img  src="https://images.unsplash.com/photo-1503891450247-ee5f8ec46dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Los Angeles picture" class="rounded-circle main-icon" />
+		</div>
+		<div class="col-7 header-right-col">
+			<div class="container-fluid header-right-col-wrapper">
+				<div class="col-6 d-flex justify-content-between align-items-center p-0">
+					<span class="insta-name">LA_dreamers</span>
+					<button type="button" class="btn btn-primary prim-bat">Follow</button>
+					 <button type="button" class="btn btn-primary dropdown-toggle info-bat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	  				</button>
+	  				<div class="dropdown-menu">
+					    <a class="dropdown-item" href="#">Action</a>
+					    <a class="dropdown-item" href="#">Another action</a>
+					    <a class="dropdown-item" href="#">Something else here</a>
+					    <div class="dropdown-divider"></div>
+					    <a class="dropdown-item" href="#">Separated link</a>
+	  				</div>
+	  				<span class="dots">•••</span>
+	  			</div>
+	  			<div class="col-7 d-flex justify-content-between align-items-center p-0 header-followers-wrapper">
+	  				<span class="header-followers">79 posts</span>
+	  				<span class="header-followers">379 followers</span>
+	  				<span class="header-followers">179 following</span>
+	  			</div>
+			</div>
+		</div>
+	</div>
 	
 
 	
