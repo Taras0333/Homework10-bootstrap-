@@ -483,6 +483,11 @@ html, body{
 .nav-icons:first-child{
 	margin-left: 27px;
 }
+@media (max-width: 573px) {
+	.columns-top:nth-child(3){
+		padding-top: 4px;
+	}
+}
 @media (max-width: 518px) {
 	.pictures-list-wrapper{
 		margin-right: 0px;
