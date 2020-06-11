@@ -24,9 +24,6 @@ html, body{
 	cursor: pointer;
 }
 
-.nav-icons{
-	cursor: pointer;
-}
 @media (max-width: 575px){
 .nav-icons:nth-child(2){
 	width: 40px;
@@ -482,6 +479,9 @@ html, body{
 }
 .nav-icons:nth-child(1n+1){
 	margin-right: 22px;
+}
+.nav-icons:first-child{
+	margin-left: 27px;
 }
 @media (max-width: 518px) {
 	.pictures-list-wrapper{
