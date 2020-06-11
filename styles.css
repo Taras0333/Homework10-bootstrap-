@@ -487,6 +487,9 @@ html, body{
 	.columns-top:nth-child(3){
 		padding-top: 4px;
 	}
+		.insta-icon{
+		padding-top: 5px;
+	}
 }
 @media (max-width: 518px) {
 	.pictures-list-wrapper{
@@ -494,5 +497,5 @@ html, body{
 	}
 	.prim-bat{
 		font-size: 11px;
-	}
+
 }
