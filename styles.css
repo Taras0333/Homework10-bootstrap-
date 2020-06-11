@@ -1,6 +1,7 @@
 html, body{
 	min-width: 100vw;
 	min-height: 100vh;
+	overflow-x: hidden;
 }
 .navbar{
 	justify-content: unset;
@@ -145,6 +146,17 @@ html, body{
 .dots{
 	cursor: pointer;
 }
+@media (max-width: 442px) {
+		.insta-name{
+			margin-right: 5px;
+		}
+		.prim-bat{
+			margin-right: 5px;
+		}
+		.info-bat{
+			margin-right: 5px;
+		}
+}
 .header-followers-wrapper{
 	margin-top: 24px;
 }
@@ -189,10 +201,10 @@ html, body{
 	.header-secondary-name{
 	font-size: 14px;
 }
-.header-text{
+	.header-text{
 	font-size: 14px;
 }
-.link{
+	.link{
 	font-size: 14px;
 }
 }
@@ -251,6 +263,23 @@ html, body{
 .header-right-col-wrapper{
 	width: unset;
 }
+}
+@media (max-width: 400px) {
+	.insta-name{
+		font-size: 11px;
+	}
+	.prim-bat{
+		width: 56px;
+	}
+	.info-bat{
+		width: 26px;
+	}
+	.header-text{
+		font-size: 9px;
+	}
+	.link{
+		font-size: 9px;
+	}
 }
 .stories-section{
 	display: flex;
@@ -401,6 +430,21 @@ html, body{
 	height: 297px;
 	cursor: pointer;
 }
+@media (max-width: 1213px) {
+	.pictures-list{
+	width: 210px;
+	height: 210px;
+	}
+	.pictures-list-wrapper{
+		margin-right: 20px;
+	}
+}
+@media (max-width: 766px) {
+	.pictures-list{
+	width: 297px;
+	height: 297px;
+	}
+}
 .pictures-list:nth-child(1n+1){
 	margin-bottom: 61px;
 }
@@ -438,4 +482,9 @@ html, body{
 }
 .nav-icons:nth-child(1n+1){
 	margin-right: 22px;
+}
+@media (max-width: 518px) {
+	.pictures-list-wrapper{
+		margin-right: 0px;
+	}
 }
