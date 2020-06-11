@@ -492,4 +492,7 @@ html, body{
 	.pictures-list-wrapper{
 		margin-right: 0px;
 	}
+	.prim-bat{
+		font-size: 11px;
+	}
 }
